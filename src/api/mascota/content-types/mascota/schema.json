@@ -4,7 +4,8 @@
   "info": {
     "singularName": "mascota",
     "pluralName": "mascotas",
-    "displayName": "Mascota"
+    "displayName": "Mascota",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,18 @@
     },
     "correo_duenio": {
       "type": "email"
+    },
+    "genero_mascota": {
+      "type": "string"
+    },
+    "raza_mascota": {
+      "type": "string"
+    },
+    "fecha_nac_mascota": {
+      "type": "date"
+    },
+    "especie_mascota": {
+      "type": "string"
     }
   }
 }
