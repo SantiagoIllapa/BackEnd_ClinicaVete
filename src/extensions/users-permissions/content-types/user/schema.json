@@ -64,15 +64,6 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
-    },
-    "nombre_usuario": {
-      "type": "string"
-    },
-    "correo_usuario": {
-      "type": "email"
-    },
-    "contrasenia_usuario": {
-      "type": "password"
     }
   }
 }
