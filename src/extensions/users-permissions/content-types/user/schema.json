@@ -64,6 +64,15 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
+    },
+    "direction": {
+      "type": "string"
+    },
+    "specialty": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
     }
   }
 }
