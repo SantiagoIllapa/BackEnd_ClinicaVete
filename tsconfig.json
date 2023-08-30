@@ -21,3 +21,36 @@
     "src/plugins/**"
   ]
 }
+// {
+//   // Esta línea indica que estás extendiendo una configuración existente para TypeScript desde un paquete llamado "@strapi/typescript-utils/tsconfigs/server".
+//   "extends": "@strapi/typescript-utils/tsconfigs/server",
+  
+//   // Aquí se definen las opciones del compilador TypeScript.
+//   "compilerOptions": {
+//     // Especifica la carpeta de salida donde se colocarán los archivos compilados.
+//     "outDir": "dist",
+    
+//     // Indica la carpeta raíz de los archivos TypeScript que serán compilados.
+//     "rootDir": "."
+//   },
+  
+//   // Enumera los patrones de archivos que deben incluirse en el proceso de compilación.
+//   "include": [
+//     "./",                // Archivos en el directorio actual
+//     "./**/*.ts",         // Archivos TypeScript en subdirectorios
+//     "./**/*.js",         // Archivos JavaScript en subdirectorios
+//     "src/**/*.json"     // Archivos JSON en la carpeta "src" y sus subdirectorios
+//   ],
+  
+//   // Enumera los patrones de archivos que deben excluirse del proceso de compilación.
+//   "exclude": [
+//     "node_modules/",    // Directorio "node_modules"
+//     "build/",            // Directorio "build"
+//     "dist/",             // Directorio "dist"
+//     ".cache/",           // Directorio ".cache"
+//     ".tmp/",             // Directorio ".tmp"
+//     "src/admin/",        // Carpeta "admin" dentro de "src"
+//     "**/*.test.*",       // Archivos que contienen ".test." en el nombre
+//     "src/plugins/**"    // Archivos en la carpeta "plugins" dentro de "src"
+//   ]
+// }
